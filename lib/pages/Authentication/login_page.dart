@@ -12,7 +12,7 @@ class LoginPage extends StatelessWidget {
           Icon(
             Icons.computer,
             size: 150,
-            color: Colors.red,
+            color: Colors.purple,
           )
         ],
       ),
