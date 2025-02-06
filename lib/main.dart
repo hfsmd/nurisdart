@@ -1,4 +1,5 @@
 import 'package:dz_nuris/pages/Authentication/login_page.dart';
+import 'package:dz_nuris/pages/Authentication/register_page.dart';
 import 'package:dz_nuris/pages/OnBoarding/onboarding_view.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoginPage(),
+      home: const RegisterPage(),
     );
   }
 }
