@@ -7,7 +7,20 @@ class RegisterPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: Colors.red,
-      body: Text('!@#%^&*('),
+      body: Center(
+        child: Text(
+            "Бұл менің экраным Мади тиме",
+            textAlign: TextAlign.end,
+
+        style: TextStyle(
+          color: Colors.white,
+          fontSize: 20,
+          fontWeight: FontWeight.bold,
+          backgroundColor: Colors.green
+        )
+        ),
+      ),
+
     );
   }
 }
