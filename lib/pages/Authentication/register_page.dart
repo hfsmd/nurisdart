@@ -7,6 +7,7 @@ class RegisterPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: Colors.red,
+      body: Text('!@#%^&*('),
     );
   }
 }
